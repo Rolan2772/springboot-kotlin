@@ -2,9 +2,11 @@ plugins {
     id 'org.springframework.boot' version '2.1.4.RELEASE'
     id 'org.jetbrains.kotlin.jvm' version '1.2.71'
     id 'org.jetbrains.kotlin.plugin.spring' version '1.2.71'
+    id "org.sonarqube" version "2.7"
 }
 
 apply plugin: 'io.spring.dependency-management'
+apply plugin: 'jacoco'
 //apply plugin: 'kotlin-jpa'
 
 group = 'com.rolan.examples'

@@ -1,0 +1,23 @@
+language: java
+
+jdk:
+ - oraclejdk11
+
+addons:
+  sonarcloud:
+    organization: "rolan2772-github"
+    token:
+      secure: $SONAR_CLOUD_KEY
+    branches:
+      - master
+      - ci/cd
+    github_token:
+      secure: $SONAR_GIT_HUB_TOKEN
+
+script:
+  - ./gradlew build
+
+cache:
+  directories:
+    - '$HOME/.gradle'
+    - '.gradle'
