@@ -49,4 +49,8 @@ compileTestKotlin {
 
 test {
     useJUnitPlatform()
+
+    filter {
+        exclude '**/IntegrationTests.*'
+    }
 }
