@@ -11,8 +11,6 @@ addons:
     branches:
       - master
       - ci/cd
-    github_token:
-      secure: $SONAR_GIT_HUB_TOKEN
 
 script:
   - ./gradlew sonarqube
