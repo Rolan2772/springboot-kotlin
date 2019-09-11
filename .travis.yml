@@ -7,7 +7,7 @@ addons:
   sonarcloud:
     organization: "rolan2772-github"
     token:
-      secure: $SONAR_CLOUD_KEY
+      secure: vXFcTxXq0ugleTyx2Zx8zkrm5+6hvwSSeIq9AgsbJKqCmQwEqu1MrHarmZYv0x6NOe14mNBSNeh7hqlinxN+J+485di2FAzABLtNAys1qd+4gKqpTXKXkQeq85Ab1qoDVWxkVf6uoY/l6NDifPmR00Gyxk23Uu/wcWCWp8aW7hupzbPdywCiAlDeQnmQz9GcI663NZNgCrSqLHgIee/YFyiryyYZmoirbkq7ljpEEbRmKbwD3KKBjN+5VKkMpK4CS/7aHqNba2radMIq/zNcKVs7hWBtqegljaYABBkjJE4zzokFJftAP+ebMn3Lnj3j3I6P555jRxw7SMTJRcURQzfhu6PPAF1strVEajPF2cBsyAPJ0WFuDD3hsGTB3SLzNGB+vQ/E6zYlFXSdA739pqoFVKLoWNNQF7yAkUVxW2DgfInRS9rjsxhgYDszaGEQhtabL0DxEh/PFlHgFJFbutIGtTCN6mpdb/dxSCQ3aQe64RArXsZcedqz11d6oF4OaMcZkUyTcvL2iO31OcoSsHcgosZGAQsmfIRPc+P4J4ruBAwR17B87mvuu9NGyB9uNL36ediSDKXK+23yPBzGcrFuLrBuJGjbV3E1ppnWVnhc2XrFISxbXLdRUXCnBUfX0HM4pIb10OD4P90VGWGh4GL7INxV660oauD/WYIePlI=
     branches:
       - master
       - ci/cd
